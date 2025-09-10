@@ -1,0 +1,9 @@
+
+[Nemo Action]
+Name=Ouvrir Raccourci Windows
+Comment=Ouvrir un raccourci Windows (.url) dans le navigateur
+Exec=/home/nis/.local/bin/ouvrir-url.py %F
+Selection=s
+Icon=applications-internet
+Extensions=url;
+
