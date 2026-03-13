@@ -1,9 +1,8 @@
-# OpenDotURL
+# Nemo_OpenDotURL
 
-opens windows .url files
+Opens Windows `.url` shortcut files from the Nemo file manager on Linux.
 
-Right clic in ubuntu nemo on a file.url windows shortcut: 
-it proposes a menu to open the internet URL.
+Right-click on a `.url` file in Nemo: it proposes a menu entry to open the internet URL in your browser.
 
 
 ## Le script Python
@@ -33,7 +32,7 @@ Puis recharge Nemo :
 nemo -q
 ```
 
-## Pour Nautilus (pas testé, j'ai pas)
+## Pour Nautilus (pas testé, j’ai pas)
 
 Dans ouvrir-url.desktop: change `nis` par ton vrai login Linux
 
@@ -52,7 +51,4 @@ nautilus -q
 ### Résultat
 
 Maintenant, un **clic droit sur un fichier `.url`** te proposera directement l’option :
-👉 **“Ouvrir fichier .url”**
-
-
-Tu veux que je t’ajoute aussi une **icône personnalisée** (genre une petite icône de navigateur) pour que l’entrée ressorte mieux dans le menu ?
+👉 **”Ouvrir fichier .url”**
